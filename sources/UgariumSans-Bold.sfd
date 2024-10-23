@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1709601509
-ModificationTime: 1729539452
+ModificationTime: 1729711780
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -80,7 +80,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8289 27 9
+WinInfo: 8208 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -106,7 +106,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 65572 246
+BeginChars: 65572 247
 
 StartChar: I
 Encoding: 73 73 0
@@ -6170,6 +6170,37 @@ SplineSet
  644 569.0078125 l 1
  35 569.0078125 l 1
  35 731.0078125 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni20BA
+Encoding: 8378 8378 246
+Width: 751
+Flags: W
+HStem: -10.1738 163.653<318.866 468.258> 711.008 20G<114 317>
+VStem: 114 203<162 731.008>
+LayerCount: 2
+Fore
+SplineSet
+25 346 m 1
+ 461 446 l 1
+ 461 347 l 1
+ 25 247 l 1
+ 25 346 l 1
+25 506 m 1
+ 461 606 l 1
+ 461 507 l 1
+ 25 407 l 1
+ 25 506 l 1
+317 162 m 1
+ 317 162 358.826171875 153.479492188 385.01171875 153.479492188 c 0
+ 470.083007812 153.479492188 520.424804688 192.985351562 532 308 c 1
+ 712 289 l 1
+ 702.0625 46.9453125 548.084960938 -10.173828125 393.364257812 -10.173828125 c 0
+ 249.87109375 -10.173828125 114 17 114 17 c 1
+ 114 731.0078125 l 1
+ 317 731.0078125 l 1
+ 317 162 l 1
 EndSplineSet
 EndChar
 EndChars
