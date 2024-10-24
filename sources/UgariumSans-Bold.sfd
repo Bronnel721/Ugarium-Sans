@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1709601509
-ModificationTime: 1729711780
+ModificationTime: 1729733395
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -80,7 +80,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8208 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -106,7 +106,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 65572 247
+BeginChars: 65572 248
 
 StartChar: I
 Encoding: 73 73 0
@@ -245,17 +245,17 @@ VStem: 55 193<224.875 731.008> 534 193<224.875 731.008>
 LayerCount: 2
 Fore
 SplineSet
-391 -10 m 0
- 155.467773438 -10 55 117.794921875 55 324 c 2
- 55 731.0078125 l 1
- 248 731.0078125 l 1
- 248 334 l 2
- 248 240.442382812 270.4609375 162.95703125 391 162.95703125 c 0
- 511.5390625 162.95703125 534 240.442382812 534 334 c 2
- 534 731.0078125 l 1
- 727 731.0078125 l 1
- 727 324 l 2
- 727 117.794921875 626.532226562 -10 391 -10 c 0
+391 -10 m 4
+ 155.467773438 -10 55 117.794921875 55 324 c 6
+ 55 731.0078125 l 5
+ 248 731.0078125 l 5
+ 248 334 l 6
+ 248 240.442382812 270.4609375 162.95703125 391 162.95703125 c 4
+ 511.5390625 162.95703125 534 240.442382812 534 334 c 6
+ 534 731.0078125 l 5
+ 727 731.0078125 l 5
+ 727 324 l 6
+ 727 117.794921875 626.532226562 -10 391 -10 c 4
 EndSplineSet
 Validated: 1
 Kerns2: 23 -15 "'kern' Horizontal Kerning in Latin lookup 0-1" 9 -25 "'kern' Horizontal Kerning in Latin lookup 0-1"
@@ -2055,7 +2055,7 @@ SplineSet
  295 -179.994140625 l 1
 EndSplineSet
 Validated: 1
-Kerns2: 56 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 27 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -120 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 62 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 56 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 27 -20 "'kern' Horizontal Kerning in Latin lookup 0-1" 24 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -120 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: z
@@ -6201,6 +6201,35 @@ SplineSet
  114 731.0078125 l 1
  317 731.0078125 l 1
  317 162 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni20BC
+Encoding: 8380 8380 247
+Width: 942
+Flags: W
+HStem: 0 21G<55 248 369.5 572.5 694 887> 418.051 172.957<343.666 598.334> 711.008 20G<369.5 572.5>
+VStem: 55 193<0 331.673> 369.5 203<0 731.008> 694 193<0 331.673>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+SplineSet
+471 591.0078125 m 4
+ 762.611328124 591.0078125 887 459.386695359 887 247.0078125 c 6
+ 887 0 l 1
+ 694 0 l 1
+ 694 237.0078125 l 6
+ 694 336.035260916 658.973503059 418.05078125 471 418.05078125 c 4
+ 283.026496941 418.05078125 248 336.035260916 248 237.0078125 c 6
+ 248 0 l 1
+ 55 0 l 1
+ 55 247.0078125 l 6
+ 55 459.386695359 179.388671876 591.0078125 471 591.0078125 c 4
+369.5 0 m 1
+ 369.5 731.0078125 l 1
+ 572.5 731.0078125 l 1
+ 572.5 0 l 1
+ 369.5 0 l 1
 EndSplineSet
 EndChar
 EndChars
